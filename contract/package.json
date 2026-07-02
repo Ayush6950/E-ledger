@@ -1,0 +1,14 @@
+{
+  "name": "estate-ledger-contract",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.cjs"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.22.0"
+  }
+}
