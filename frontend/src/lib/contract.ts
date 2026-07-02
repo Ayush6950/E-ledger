@@ -1,5 +1,5 @@
 // src/lib/contract.ts
-import EstateLedgerABI from "../../../contract/artifacts/contracts/EstateLedger.sol/EstateLedger.json";
+import EstateLedgerABI from "./abi/EstateLedger.json";
 
 export const ESTATE_LEDGER_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
